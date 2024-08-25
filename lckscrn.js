@@ -1,9 +1,9 @@
-let timeout;
+   let timeout;
 let countdownInterval;
 
 function showCountdownPopup() {
     document.getElementById('countdown-popup').style.display = 'flex';
-    let countdown = 5;
+    let countdown = 9;
     document.getElementById('countdown-timer').textContent = countdown;
 
     countdownInterval = setInterval(() => {
@@ -24,7 +24,7 @@ function resetTimer() {
 
 function startTimer() {
     clearTimeout(timeout); // Clear any existing timer
-    timeout = setTimeout(showCountdownPopup, 10000); // 10 seconds
+    timeout = setTimeout(showCountdownPopup, 30000); // 30 seconds
 }
 
 function lockScreen() {
