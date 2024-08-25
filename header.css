@@ -1,14 +1,14 @@
-#header {
+ #header {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     position: absolute;
-    top: 0;
+    top: 8px;
     left: 0;
     text-align: center;
 }
-#buttons-container {
+.btn-container {
     position: absolute;      
-    top: 20px;
+    top: 23px;
 }
